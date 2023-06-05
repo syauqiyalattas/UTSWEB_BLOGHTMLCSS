@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+/* Gaya umum untuk seluruh halaman */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Gaya untuk header */
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Gaya untuk judul halaman */
+h1 {
+  color: #000000;
+}
+
+/* Gaya untuk navigasi */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Gaya untuk konten utama */
+main {
+  padding: 20px;
+}
+
+/* Gaya untuk judul konten */
+h2 {
+  color: #121221;
+}
+
+/* Gaya untuk paragraf konten */
+p {
+  color: #666;
+}
+
+/* Gaya untuk footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}
+
+.navbar form {
+  display: flex;
+}
+
+.navbar i {
+  margin-left: 720px;
+}
+
+.navbar img {
+  margin-left: 12px;
+}
+
+.isipage h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.isipage img {
+  margin-top: 49px;
+  height: 560px;
+  width: 1000px;
+}
+
+.isipage p {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  margin-top: 26px;
+}
+
+.trendimg1 {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  gap: 10px;
+  padding-top: 39px;
+  padding-bottom: 44px;
+}
+
+section h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  margin-left: 100px;
+  margin-top: 64px;
+}
